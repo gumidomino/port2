@@ -1,9 +1,9 @@
-html {overflow-x: hidden;
+html {
   background: #ffffff;
 }
 
 body {    margin: auto;
-position: relative;
+
   font-family: "Roboto", sans-serif;
   font-size: 10px;
 
@@ -13,8 +13,6 @@ position: relative;
   max-width: 100%;
     margin:auto;
   padding-top: 2%;
-    
-    padding-bottom: 20pt;
 }
 
 a {
@@ -34,13 +32,21 @@ h1 {hanging-punctuation: force-end;
     margin: auto;
     z-index:14;
         width:80%;
+    background-color:yellow;
     position:fixed;
 }
 
-
+.eader{      margin: auto;
+  z-index:11;
+    background-color: white;
+    position:fixed;
+    width:100%;
+    height:40pt;
+}  
 h2 { z-index:10;
 margin:auto;
       position:fixed;
+    background-color:white;
     width:100%;
     color:black;
   font-weight: 700;
@@ -62,9 +68,9 @@ text-align: right;}
 
 .container11 {
     z-index:1;
-    margin-left:20%;
+    margin:auto;
     max-width: 68%;
-    justify-items: left;
+    justify-items: center;
   display: grid;
     padding-top: 100px;
   grid-template-columns: 50% 50%;
@@ -72,23 +78,13 @@ text-align: right;}
     padding-bottom: 20pt;
 }
 
-.images2{
-    display:grid
-}
-.img5{
-    width:15%;
-}
-  .explain{display:grid;
-justify-content: flex-start;
-  grid-template-columns: 60%;
-    margin:auto;
-}      
+        
 
-.explain2{display:grid;
+.explain{display:grid;
 justify-content: flex-start;
   grid-template-columns: 60%;
-    margin:auto;
 }
+
 
 
 .wrapper2:hover span {
@@ -102,7 +98,7 @@ justify-content: flex-start;
   transition: filter 0.2s ease-in;
 }
 
-.images{margin-left:20%;
+.images{margin: auto;
     width: 68%;
      justify-items: center;
   display: grid;
@@ -125,29 +121,16 @@ justify-content: flex-start;
 .img2 {
   width:100%;
 }
-.rotate{width: 56.3%;
-    transform: rotate(-90deg);
-}
-.frame{justify-items: center;
+
+.frame{
   width: 100%;
   display: grid;
   grid-template-columns: 100%;
-    background-color: #ebebeb;
-    
 }
 
-.gif{justify-items: center;
-    width:60%;
-    padding-bottom: 10pt;
-    padding-top: 20pt;
-}
-
-
-.text1{margin-left:7%;
+.text1{
     text-align: center;
     color:black;
-    
-    padding-top:30pt;
     padding-bottom: 20pt;
 }
 
@@ -161,63 +144,34 @@ justify-content: flex-start;
 
 
 .container11 {
-  grid-template-columns:100% ;
-     margin:auto;
+  grid-template-columns: 50% 50% ;
 }
-    .layout{
-        padding-top: 25pt;
-    }
-.header{
- 
-    margin: auto;
-    z-index:14;
-        width:30%;
-    position:absolute;
-    }
-    
-    .kozep{
-        justify-content: center;
-        
-    } 
-    
-    
-    h2 {
-        margin:0 auto;
-        position: absolute;
-    color:black;
-  font-weight: 700;
-  letter-spacing: 0.7;
-  text-align: center;
-        font-size: 8pt
-}
-    .explain{display:grid;
-justify-content: center;
-  grid-template-columns: 80%;
-}
-    
-    .images{margin: auto;
-    width: 68%;
-     justify-items: center;
-  display: grid;
-     grid-template-columns: 100%;
-    grid-template-rows: auto;
-    grid-row-gap: 10px;
-    padding-bottom: 5pt;
-}
-    .gif{justify-items: center;
-    width:90%;
-    padding-bottom: 10pt;
-    padding-top: 20pt;
-}
-    
-    
-h1 {
-  font-weight: 300;
-  letter-spacing: 0.7;
-    font-size: 10px;
+
+
+
+
 
 }
-    
+
+
+@media (max-width: 800px) {
+ 
+
+
+
+.container11 {
+  grid-template-columns: 50% 50% ;
+}
+
+header{width:100%;
+    background-color: black;
+    position:fixed;
+}
+
+
+
+}
+
 
 
 
